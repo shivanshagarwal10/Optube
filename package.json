@@ -2,10 +2,14 @@
   "name": "optube",
   "version": "1.0.0",
   "description": "javascript, backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dwv": "nodemon src/index.js"
   },
   "author": "Shivansh Agarwal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
